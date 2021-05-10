@@ -1,4 +1,5 @@
 <style>
+
 	h1, figure, p {
 		text-align: center;
 		margin: 0 auto;
@@ -33,10 +34,10 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Winter Hotel</title>
 </svelte:head>
 
-<h1>Winter Hotel</h1>
+<h1 class="class1">Winter Hotel</h1>
 
 <figure>
 	<img alt='Borat' src='great-success.png'>
@@ -44,3 +45,5 @@
 </figure>
 
 <p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+
+<p><a href="ejemplo">EJEMPLO</a></p>
