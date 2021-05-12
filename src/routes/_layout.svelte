@@ -1,9 +1,8 @@
 <script>
 	import Nav from '../components/Nav.svelte';
-
 	export let segment;
 </script>
-
+<title>Winter Hotel</title>
 <style>
 	main {
 		position: relative;
@@ -20,3 +19,4 @@
 <main>
 	<slot></slot>
 </main>
+
