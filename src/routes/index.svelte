@@ -2,32 +2,32 @@
     import Carousel from '../components/Carousel.svelte';
     const images = [
         {
-            path: 'https://picsum.photos/id/1012/3973/2639',
+            path: 'https://img.blogs.es/anexom/wp-content/uploads/2016/08/hoteles-w-920x515.jpg',
             id: 'imagen-ejemplo-1',
             alt: 'Atributo ALT de ejemplo para la imagen #1',
         },
         {
-            path: 'https://picsum.photos/id/1005/5760/3840',
+            path: 'https://alfagemeviajes.com/images/uploads/Hotel.jpg',
             id: 'imagen-ejemplo-2',
             alt: 'Atributo ALT de ejemplo para la imagen #2',
         },
         {
-            path: 'https://picsum.photos/id/1020/4288/2848',
+            path: 'https://www.efetur.com/core/blogs.dir/2/files/2014/12/RP-Marrakech-Spa-low.jpg',
             id: 'imagen-ejemplo-3',
             alt: 'Atributo ALT de ejemplo para la imagen #3',
         },
         {
-            path: 'https://picsum.photos/id/1025/4951/3301',
+            path: 'https://www.i-decoracion.com/Uploads/i-decoracion.com/Imagenes/hotel-submarino-5-estrellas-poseidon-undersea.jpg',
             id: 'imagen-ejemplo-4',
             alt: 'Atributo ALT de ejemplo para la imagen #4',
         },
         {
-            path: 'https://picsum.photos/id/103/2592/1936',
+            path: 'https://images.homify.com/c_fill,f_auto,h_500,q_auto,w_1280/v1437703120/p/photo/image/106238/ba_era-Teuco-Seaside__Tono_Bagno__Ba_os_Hotel_Mandarin__barcelona-suite-penthouse-bathroom-1.jpg',
             id: 'imagen-ejemplo-5',
             alt: 'Atributo ALT de ejemplo para la imagen #5',
         },
         {
-            path: 'https://picsum.photos/id/104/3840/2160',
+            path: 'https://www.restauranthotelbar.com/fotos/4/Fairplay1.jpg',
             id: 'imagen-ejemplo-6',
             alt: 'Atributo ALT de ejemplo para la imagen #6',
         },
@@ -40,14 +40,13 @@
 </script>
 
 <main>
-    <h2 class="item__title" align="center">Mi galería de ejemplo</h2>
+    
+    <h2 class="item__title" align="center">Winter Hotel</h2>
     <div class="item__gallery">
         <Carousel {images} />
     </div>
-    <p class="item__description">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae ipsum
-        possimus accusamus aut, assumenda fuga labore provident, non molestiae
-        recusandae harum, fugit neque nisi quos qui nulla. Non, quaerat officia.
+    <p class="item__description" align="center">
+        El hotel de Luffy
     </p>
 </main>
 
